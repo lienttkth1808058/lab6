@@ -1,0 +1,92 @@
+* {
+    font-family: Tahoma, serif;
+}
+
+.header {
+    height: 70px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.header .name {
+    float: left;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.header .logo img {
+    height: 50px;
+    float: left;
+    margin: 3px;
+    padding-left: 160px;
+}
+
+.header .menu {
+    float: right;
+    margin: 15px;
+    padding-right: 120px;
+}
+
+.quote {
+    border: 2px solid black;
+    height: 50px;
+    background-color: #8383ffab;
+    padding-left: 220px;
+    font-size: 12px;
+
+}
+
+.quote .cite {
+    color: white;
+    padding-left: 150px;
+}
+
+.quote .gia {
+    font-style: italic;
+    color: white;
+    padding-left: 430px;
+    margin: -6px;
+}
+
+.body {
+    height: 600px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 900px;
+}
+
+.body .item-coluem {
+    float: left;
+    height: 200px;
+    width: 28%;
+    padding: 10px;
+}
+
+.body .item-coluem .title {
+    text-decoration: underline;
+    color: blue;
+    padding: 10px;
+}
+
+.body .item-coluem .description {
+    font-size: 14px;
+}
+.body .item-coluem img {
+    width: 150px;
+
+}
+
+.footer {
+    border: 2px solid black;
+    height: 25px;
+    text-align: center;
+    background-color: #8383ffab;
+}
+
+.clear-both {
+    clear: both;
+}
+
